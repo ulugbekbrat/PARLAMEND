@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PARLAMEND</title>
+    <link rel="icon" type="image/png" href="./images/logoofp.png">
+
+  <link rel="stylesheet" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+  <!-- Swiper CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+</head>
+<body>
+<header id="main-header">
+  <h1>PARLAMEND</h1>
+  <div class="alar">
+    <a href="#Section1" data-i18n="home">Главная</a>
+    <a href="#Section2" data-i18n="about">О Нас</a>
+    <a href="#section3" data-i18n="products">Изделия</a>
+    <a href="#footer"  data-i18n="contact">Контакты</a>
+  </div>
+
+
+ <div class="lang-dropdown">
+  <button id="lang-btn">🌐 RUS ⌄</button>
+  <ul class="lang-menu">
+    <li data-lang="uz">UZB</li>
+    <li data-lang="ru">RUS</li>
+    <li data-lang="en">ENG</li>
+  </ul>
+</div>
+<button class="burger" aria-label="Toggle menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+</header>
+
+
+
+  <div id="Section1" class="Section1">
+    <div class="left">
+      <h2>PARLA<span style="color: #c5a47e;">MEND</span></h2>
+      <p>JEWELERY</p>
+    </div>
+    <div class="right">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide swiper-slide-1"></div> 
+            <div class="swiper-slide swiper-slide-2"></div>
+            <div class="swiper-slide swiper-slide-3"></div>
+        </div>
+    </div>
+</div>
+  </div>
+
+<div style="padding-top: 150px;" id="Section2" class="Section2">  
+  <strong class="back_text" id="factoryName">PARLAMEND</strong>
+
+  <h1 style="text-transform: uppercase;" id="aboutTitleContainer">
+    О Нас  
+
+
+    <span class="highlight" id="highlightName">PARLAMEND</span>
+  </h1>
+
+  <div class="main1">
+  <div class="left">
+    <h2 id="aboutHeading">
+        Ювелирный завод <strong>PARLAMEND</strong> — имеет историю с <strong>2005</strong> года, а на рынке Узбекистана под брендом <strong>PARLAMEND</strong> представлен с <strong>2021</strong> года.
+    </h2>
+    <p id="aboutText">
+        Основная задача ювелирного завода PARLAMEND — обратить внимание потребителя на качество ювелирных украшений.
+        Богатые узбекские традиции ювелирного дела, внедрение новых мировых технологий и высокое европейское качество — основа развития завода.
+    </p>
+</div>
+
+    <div class="mid">
+      <h3 id="specializationTitle">Наша специализация:</h3>
+      <ul>
+        <li><img src="./images/icon-architecture (1).png" alt="Разработка"> <span id="developmentText">РАЗРАБОТКА</span></li>
+        <li><img src="./images/icon-interiors.png" alt="Производство"> <span id="productionText">ПРОИЗВОДСТВО</span></li>
+        <li><img src="./images/icon-planing.png" alt="Оптовая торговля"> <span id="wholesaleText">ОПТОВАЯ ТОРГОВЛЯ</span></li>
+      </ul>
+    </div>
+
+    <div class="right">
+      <img src="./images/rabotayushie lyudi.PNG" alt="Работники за станком">
+    </div>
+  </div>
+
+  <h1 class="highlight2" id="ourProductsTitle">
+    НАШИ ИЗДЕЛИЯ
+  </h1>
+</div>
+
+
+<section id="section3" class="section3">
+  <div class="slider-container">
+    <button class="nav prev">← PREV</button>
+
+    <div class="slider-wrapper">
+      <div class="slider">
+        <div class="card"><img src="./images/uzuk foto for site.PNG" alt=""><span>PARLAMEND</span></div>
+        <div class="card"><img src="./images/uzuk foto for 2.PNG" alt=""><span>PARLAMEND</span></div>
+        <div class="card"><img src="./images/ggggggg.jpg" alt=""><span>PARLAMEND</span></div>
+        <div class="card"><img src="./images/aaaaaaaaaaa.jpg" alt=""><span>PARLAMEND</span></div>
+      </div>
+    </div>
+
+    <button class="nav next">NEXT →</button>
+  </div>
+
+  <!-- Модальное окно -->
+  <div class="modal" id="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modal-img">
+  </div>
+</section>
+
+<section id="section4" class="section4">
+  <h2 class="section4-title">
+    <span data-i18n="factory">ЮВЕЛИРНЫЙ ЗАВОД</span> <span>PARLAMEND</span>
+  </h2>
+  <div class="section4-grid">
+    <div class="section4-card">
+      <img src="./images/icon-drawing.png" alt="Контроль">
+      <h3 data-i18n="controlTitle">ГОСУДАРСТВЕННЫЙ<br>КОНТРОЛЬ</h3>
+      <p data-i18n="controlText">
+        Каждое украшение PARLAMEND имеет клеймо, гарантирующее подлинность изделия. Вся продукция проходит государственный контроль пробирной инспекции.
+      </p>
+    </div>
+    <div class="section4-card">
+      <img src="./images/icon-house-plans.png" alt="Металлы">
+      <h3 data-i18n="metalTitle">СЫРЬЁ И ДРАГОЦЕННЫЕ<br>МЕТАЛЛЫ</h3>
+      <p data-i18n="metalText">
+        Изделия PARLAMEND изготавливаются из золота, закупаемого у лицензированных поставщиков и предприятий по добыче драгоценных металлов.
+      </p>
+    </div>
+    <div class="section4-card">
+      <img src="./images/icon-house-key.png" alt="Качество">
+      <h3 data-i18n="qualityTitle">КАЧЕСТВО<br>ПРОДУКЦИИ</h3>
+      <p data-i18n="qualityText">
+        Вся продукция PARLAMEND соответствует ГОСТу и стандартам. Мы берём ответственность за качество и предлагаем обмен или возврат при браке.
+      </p>
+    </div>
+  </div>
+</section>
+
+<footer id="footer" class="footer">
+  <div class="footer-wrapper">
+
+    <!-- Контактная информация -->
+    <div class="footer-section">
+      <h3 data-i18n="contacts">Контакты</h3>
+      <p>+998 94 644 84 54</p>
+      <p>+998 88 488 84 54</p>
+      <p>Email: ulugbek.mahmudov20000@gmail.com</p>
+    </div>
+
+    <!-- Быстрые ссылки -->
+    <div class="footer-section">
+      <h3 data-i18n="navigation">Навигация</h3>
+      <ul>
+        <li><a href="#" data-i18n="home">Главная</a></li>
+        <li><a href="#" data-i18n="about">О Нас</a></li>
+        <li><a href="#" data-i18n="products">Каталог</a></li>
+        <li><a href="#" data-i18n="contact">Контакты</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+    </div>
+
+    <!-- Социальные сети -->
+    <div class="footer-section">
+      <h3 data-i18n="socials">Мы в соцсетях</h3>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/parlamend_gold_uz?igsh=dGRraGpzZ3cwcnp1"><img src="./images/image-removebg-preview.png" alt="Instagram">        <h4 style="color: #555555;">Instagram</h4 > </a>
+
+        <a href="https://t.me/+9FtsY59eyE84ZWZi"><img src="./images/image-removebg-preview (1).png" alt="Telegram">        <h4 style="color: #555555;">Telegram</h4>
+</a>
+      </div>
+    </div>
+
+    <!-- Информация о компании -->
+    <div id="footer-section" class="footer-section">
+      <h3 data-i18n="aboutCompany">О компании</h3>
+      <p data-i18n="companyText">
+        PARLAMEND — ювелирный бренд, сочетающий в себе узбекские традиции и современные технологии. Мы гарантируем высокое качество продукции и сервис премиум-класса.
+      </p>
+    </div>
+
+  </div>
+
+  <!-- Низ футера -->
+  <div class="footer-bottom">
+    <h1>PARLAMEND</h1>
+    <p>&copy; 2025 PARLAMEND. <span data-i18n="rights">Все права защищены.</span></p>
+  </div>
+</footer>
+
+
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    // Swiper (главный слайдер)
+    var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+        },
+    });
+
+    // ===============================================
+    // АДАПТИВНЫЙ ГОРИЗОНТАЛЬНЫЙ СЛАЙДЕР ИЗДЕЛИЙ (Section 3)
+    // ===============================================
+    const slider = document.querySelector('.slider');
+    const cards = document.querySelectorAll('.card');
+    let currentIndex = 0;
+
+    // Функция для получения динамической ширины карточки и зазора
+    function getCardStep() {
+        if (cards.length === 0) return 0;
+        // Получаем ширину первой карточки (offsetWidth включает padding/border)
+        const cardWidth = cards[0].offsetWidth;
+        
+        // В вашем CSS зазор (gap) между карточками равен 20px
+        const gap = 20; 
+        
+        return cardWidth + gap; 
+    }
+    
+    // Функция для определения максимального индекса с учетом разрешения
+    function getMaxIndex() {
+        // На широком экране видно 3 карточки. На мобильном 1.
+        const visibleCards = window.innerWidth > 1024 ? 3 : 1;
+        // Мы хотим, чтобы можно было пролистать до конца
+        // Нам нужно, чтобы при последнем сдвиге (cards.length - visibleCards)
+        // последняя карточка оказалась на экране.
+        return Math.max(0, cards.length - visibleCards);
+    }
+    
+
+    document.querySelector('.next').onclick = () => {
+        const cardStep = getCardStep();
+        const maxIndex = getMaxIndex();
+
+        if (currentIndex < maxIndex) {
+            currentIndex++;
+            slider.style.transform = `translateX(-${currentIndex * cardStep}px)`;
+        } else if (window.innerWidth <= 1024 && currentIndex < cards.length - 1) {
+            // Специальный сдвиг для телефонов, чтобы показать самую последнюю карточку
+            currentIndex++;
+            slider.style.transform = `translateX(-${currentIndex * cardStep}px)`;
+        }
+    };
+
+    document.querySelector('.prev').onclick = () => {
+        const cardStep = getCardStep();
+
+        if (currentIndex > 0) {
+            currentIndex--;
+            slider.style.transform = `translateX(-${currentIndex * cardStep}px)`;
+        }
+    };
+
+
+    // ===============================================
+    // Модальное окно и другие функции
+    // ===============================================
+    const modal = document.getElementById("modal");
+    const modalImg = document.getElementById("modal-img");
+
+    document.querySelectorAll(".card img").forEach(img => {
+        img.onclick = () => {
+            modal.style.display = "block";
+            modalImg.src = img.src;
+        };
+    });
+
+    document.querySelector(".close").onclick = () => {
+        modal.style.display = "none";
+    };
+
+    // Закрытие модального окна при клике вне изображения
+    window.addEventListener('click', (event) => {
+        if (event.target === modal) {
+            modal.style.display = "none";
+        }
+    });
+
+    // При прокрутке — тень на хедере
+    const header = document.getElementById('main-header');
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+    });
+
+    // Языковый переключатель + переводы
+    const translations = {
+        uz: {
+            // Navigation and footer links (data-i18n)
+            home: 'Bosh sahifa',
+            about: 'Biz haqimizda',
+            products: 'Mahsulotlar',
+            contact: 'Aloqa',
+
+            // Section 4 Content (data-i18n)
+            factory: 'ZARGARLIK ZAVODI',
+            controlTitle: 'DAVLAT NAZORATI',
+            controlText: 'Har bir PARLAMEND zargarlik buyumida uning haqiqiyligini tasdiqlovchi tamg‘a mavjud. Barcha mahsulotlar davlat tekshiruvidan o‘tadi.',
+            metalTitle: 'XOM ASHYOLAR VA QIMMATBAXTA METALLAR',
+            metalText: 'PARLAMEND mahsulotlari faqat litsenziyaga ega yetkazib beruvchilardan xarid qilingan oltindan tayyorlanadi.',
+            qualityTitle: 'MAHSULOT SIFATI',
+            qualityText: 'PARLAMEND mahsulotlari standartlarga muvofiq. Sifat kafolatlanadi va nuqsonli mahsulotlar almashtiriladi yoki qaytarib olinadi.',
+
+            // Footer Content (data-i18n)
+            navigation: 'Navigatsiya',
+            socials: 'Ijtimoiy tarmoqlar',
+            contacts: 'Aloqa', // Added here for consistency
+            aboutCompany: 'Kompaniya haqida',
+            companyText: 'PARLAMEND — O‘zbekiston anʼanalarini va zamonaviy texnologiyalarni birlashtirgan zargarlik brendi. Biz yuqori sifatli mahsulotlar va premium xizmatni kafolatlaymiz.',
+            rights: 'Barcha huquqlar himoyalangan.',
+
+            // Section 2 Dynamic IDs (Special handling)
+            aboutTitleSection2: 'Biz haqimizda',
+                 aboutHeading: 'Zargarlik zavodi <strong>PARLAMEND</strong> — <strong>2005</strong> yildan buyon faoliyat yuritadi, <strong>PARLAMEND</strong> brendi ostida esa O‘zbekiston bozorida <strong>2021</strong> yildan beri taqdim etilgan.',
+
+
+            aboutTextSection2: 'Zargarlik zavodining asosiy vazifasi — xaridorning zargarlik mahsulotlari sifatiga e\'tiborini qaratish. O‘zbek an\'analari, yangi texnologiyalar va yuqori sifat — zavod rivojining asosi.',
+            specialization: 'Bizning ixtisosligimiz:',
+            development: 'RIVOJLANTIRISH',
+            production: 'ISHLAB CHIQARISH',
+            wholesale: 'ULGURJI SAVDO',
+            ourProductsTitleText: 'MAHSULOTLARIMIZ',
+        },
+        ru: {
+            // Navigation and footer links (data-i18n)
+            home: 'Главная',
+            about: 'О Нас',
+            products: 'Изделия',
+            contact: 'Контакты',
+           
+
+            // Section 4 Content (data-i18n)
+            factory: 'ЮВЕЛИРНЫЙ ЗАВОД',
+            controlTitle: 'ГОСУДАРСТВЕННЫЙ КОНТРОЛЬ',
+            controlText: 'Каждое украшение PARLAMEND имеет клеймо, гарантирующее подлинность изделия. Вся продукция проходит государственный контроль пробирной инспекции.',
+            metalTitle: 'СЫРЬЁ И ДРАГОЦЕННЫЕ МЕТАЛЛЫ',
+            metalText: 'Изделия PARLAMEND изготавливаются из золота, закупаемого у лицензированных поставщиков и предприятий по добыче драгоценных металлов.',
+            qualityTitle: 'КАЧЕСТВО ПРОДУКЦИИ',
+            qualityText: 'Вся продукция PARLAMEND соответствует ГОСТу и стандартам. Мы берём ответственность за качество и предлагаем обмен или возврат при браке.',
+
+            // Footer Content (data-i18n)
+            navigation: 'Навигация',
+            socials: 'Мы в соцсетях',
+            contacts: 'Контакты',
+            aboutCompany: 'О компании',
+            companyText: 'PARLAMEND — ювелирный бренд, сочетающий в себе узбекские традиции и современные технологии. Мы гарантируем высокое качество продукции и сервис премиум-класса.',
+            rights: 'Все права защищены.',
+
+            // Section 2 Dynamic IDs (Special handling)
+            aboutTitleSection2: 'О Нас',
+             aboutHeading: 'Ювелирный завод <strong>PARLAMEND</strong> — имеет историю с <strong>2005</strong> года, а на рынке Узбекистана под брендом <strong>PARLAMEND</strong> представлен с <strong>2021</strong> года.',
+
+             aboutTextSection2: 'Основная задача ювелирного завода PARLAMEND — обратить внимание потребителя на качество ювелирных украшений. Богатые узбекские традиции, новые технологии и высокое качество — основа развития завода.',
+
+            specialization: 'Наша специализация:',
+            development: 'РАЗРАБОТКА',
+            production: 'ПРОИЗВОДСТВО',
+            wholesale: 'ОПТОВАЯ ТОРГОВЛЯ',
+            ourProductsTitleText: 'НАШИ ИЗДЕЛИЯ',
+        },
+        en: {
+            // Navigation and footer links (data-i18n)
+            home: 'Home',
+            about: 'About Us',
+            products: 'Products',
+            contact: 'Contact',
+
+            // Section 4 Content (data-i18n)
+            factory: 'JEWELRY FACTORY',
+            controlTitle: 'STATE CONTROL',
+            controlText: 'Each PARLAMEND piece has a stamp ensuring authenticity. All products undergo state assay inspection.',
+            metalTitle: 'RAW MATERIALS & PRECIOUS METALS',
+            metalText: 'PARLAMEND items are made from gold purchased from licensed suppliers and precious metal producers.',
+            qualityTitle: 'PRODUCT QUALITY',
+            qualityText: 'All PARLAMEND products meet standards. We ensure quality and offer exchange or return for defects.',
+
+            // Footer Content (data-i18n)
+            navigation: 'Navigation',
+            socials: 'Social Media',
+            contacts: 'Contact',
+            aboutCompany: 'About Company',
+            companyText: 'PARLAMEND is a jewelry brand combining Uzbek traditions and modern technologies. We guarantee high-quality products and premium service.',
+            rights: 'All rights reserved.',
+
+            // Section 2 Dynamic IDs (Special handling)
+            aboutTitleSection2: 'About Us',
+
+                  aboutHeading: 'Jewelry factory <strong>PARLAMEND</strong> has a history dating back to <strong>2005</strong>, and has been operating under the brand <strong>PARLAMEND</strong> in the Uzbekistan market since <strong>2021</strong>.',
+
+
+            aboutTextSection2: 'The main task of the PARLAMEND jewelry factory is to focus the customer\'s attention on the quality of jewelry. Rich Uzbek traditions, new technologies, and high quality are the foundation of the factory\'s development.',
+            specialization: 'Our specialization:',
+            development: 'DEVELOPMENT',
+            production: 'PRODUCTION',
+            wholesale: 'WHOLESALE',
+            ourProductsTitleText: 'OUR PRODUCTS',
+        }
+    };
+
+    /**
+     * Updates the text content for the Section 2 elements with specific IDs.
+     * @param {string} lang The target language code ('uz', 'ru', 'en').
+     */
+    function updateSection2Content(lang) {
+        const t = translations[lang];
+
+        // 1. Back text and Title
+        document.getElementById('factoryName').textContent = t.factory;
+
+        const aboutTitleContainer = document.getElementById('aboutTitleContainer');
+        const highlightName = document.getElementById('highlightName');
+
+        if (aboutTitleContainer) {
+            // Set the main text of the title (e.g., "О Нас")
+            aboutTitleContainer.textContent = t.aboutTitleSection2.toUpperCase();
+            // Append the highlighted name back (e.g., "PARLAMEND")
+            if (highlightName) {
+                aboutTitleContainer.appendChild(highlightName);
+            }
+        }
+
+        // 2. Main content of Section 2
+        // aboutHeading contains HTML (<strong>), so use innerHTML
+        document.getElementById('aboutHeading').innerHTML = t.aboutHeading;
+        document.getElementById('aboutText').textContent = t.aboutTextSection2;
+        document.getElementById('specializationTitle').textContent = t.specialization;
+        document.getElementById('developmentText').textContent = t.development;
+        document.getElementById('productionText').textContent = t.production;
+        document.getElementById('wholesaleText').textContent = t.wholesale;
+
+        // 3. Our Products Title
+        document.getElementById('ourProductsTitle').textContent = t.ourProductsTitleText;
+    }
+
+
+    /**
+     * Main function to switch the website's language.
+     * @param {string} lang The target language code ('uz', 'ru', 'en').
+     */
+    function switchLanguage(lang) {
+        const t = translations[lang];
+
+        // 1. Update all data-i18n elements (including navigation links now!)
+        document.querySelectorAll('[data-i18n]').forEach(el => {
+            const key = el.getAttribute('data-i18n');
+            // Use innerHTML for safety, as some translations might contain <a> tags in a list (e.g., in a complex footer)
+            if (t[key]) {
+                el.innerHTML = t[key];
+            }
+        });
+
+        // 2. Update section 2 specific IDs
+        updateSection2Content(lang);
+
+        // 3. Update language dropdown button text and active class
+        document.querySelectorAll('[data-lang]').forEach(btn => btn.classList.remove('active'));
+        const activeBtn = document.querySelector(`[data-lang="${lang}"]`);
+        if (activeBtn) activeBtn.classList.add('active');
+
+        const langBtn = document.getElementById('lang-btn');
+        if (langBtn) {
+            langBtn.innerHTML = `🌐 ${lang.toUpperCase()} ⌄`;
+        }
+
+        // 4. Update the HTML lang attribute
+        document.documentElement.lang = lang;
+    }
+
+
+    // Языковый dropdown logic
+    const langBtn = document.getElementById('lang-btn');
+    const langMenu = document.querySelector('.lang-menu');
+    const langItems = langMenu.querySelectorAll('li');
+
+    if (langBtn && langMenu) {
+        langBtn.addEventListener('click', () => {
+            langMenu.classList.toggle('show');
+        });
+
+        langItems.forEach(item => {
+            item.addEventListener('click', () => {
+                const selectedLang = item.getAttribute('data-lang');
+                switchLanguage(selectedLang);
+                langMenu.classList.remove('show');
+            });
+        });
+
+        // Закрыть dropdown при клике вне
+        window.addEventListener('click', (e) => {
+            if (!e.target.closest('.lang-dropdown')) {
+                langMenu.classList.remove('show');
+            }
+        });
+    }
+
+    // Запуск по умолчанию (Ensures all translations run on load)
+    switchLanguage('ru');
+
+    // Smooth scroll for navigation links
+    document.querySelectorAll('.alar a').forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href').substring(1);
+            const targetSection = document.getElementById(targetId);
+            if (targetSection) {
+                window.scrollTo({
+                    top: targetSection.offsetTop - document.getElementById('main-header').offsetHeight, // Offset for fixed header
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+
+    // Burger menu logic
+    const burger = document.querySelector('.burger');
+    const menu = document.querySelector('.alar');
+
+    if (burger && menu) {
+        burger.addEventListener('click', () => {
+            menu.classList.toggle('active');
+            // Добавим класс для изменения иконки бургера, если нужно
+            burger.classList.toggle('is-open'); 
+        });
+    }
+
+
+    // ====================================================
+// ОБНОВЛЕННЫЙ JavaScript для АКТИВНОЙ ССЫЛКИ при прокрутке
+// ====================================================
+
+const navLinks = document.querySelectorAll('.alar a');
+// Собираем ВСЕ секции, на которые есть ссылки в меню
+const sections = Array.from(navLinks).map(link => {
+    const targetId = link.getAttribute('href').substring(1);
+    return document.getElementById(targetId);
+}).filter(section => section !== null); // Фильтруем пустые, если ID не найден
+
+const headerHeight = 110; // Фиксированная высота хедера (или определите динамически)
+// const headerHeight = document.getElementById('main-header').offsetHeight || 110;
+
+// Функция для установки активной ссылки
+function setActiveLink() {
+    let currentSectionId = '';
+    
+    // Y-координата, относительно которой мы проверяем, какая секция "активна".
+    // Берем текущую прокрутку + высота хедера + буфер (50px)
+    const scrollY = window.scrollY + headerHeight + 50; 
+
+    // 1. Находим текущую активную секцию
+    sections.forEach(section => {
+        if (!section) return; // Пропускаем, если секция не найдена
+
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.offsetHeight;
+        
+        // Проверяем, находится ли верхняя граница секции в области просмотра
+        if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+            currentSectionId = section.getAttribute('id');
+        }
+    });
+
+    // 2. Устанавливаем класс 'active' для соответствующей ссылки
+    navLinks.forEach(link => {
+        link.classList.remove('active'); // Сначала убираем со всех
+        
+        if (link.getAttribute('href').substring(1) === currentSectionId) {
+            link.classList.add('active'); // Ставим на нужную
+        }
+    });
+}
+
+// Запуск функции при загрузке страницы и при прокрутке
+window.addEventListener('scroll', setActiveLink);
+window.addEventListener('load', setActiveLink);
+
+// Дополнительно: корректировка при клике для скролла
+navLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        const targetId = this.getAttribute('href').substring(1);
+        const targetSection = document.getElementById(targetId);
+        if (targetSection) {
+            window.scrollTo({
+                top: targetSection.offsetTop - headerHeight,
+                behavior: 'smooth'
+            });
+            // Немедленно устанавливаем класс 'active' после клика
+            setActiveLink(); 
+        }
+    });
+});
+
+// Дополнительный вызов для правильной работы после загрузки
+setActiveLink();
+
+
+
+
+document.querySelectorAll(".card img").forEach(img => {
+    img.onclick = () => {
+        modal.style.display = "block"; // <-- Здесь модальное окно становится видимым
+        modalImg.src = img.src;
+    };
+});
+</script>
+
+
+  
+</body>
+</html>

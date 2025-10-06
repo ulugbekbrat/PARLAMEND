@@ -1,0 +1,1517 @@
+*{
+    padding: 0;
+    margin: 0;
+font-style: normal;
+
+box-sizing: border-box  ;
+ font-family: 'Oswald';
+}
+header h1{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header{
+    height: 110px;
+    /* background-color: rgb(26, 26, 61); */
+    background-color: #1a1a1d;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.alar{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.alar a{
+    
+    font-size: 13px;
+    letter-spacing: 1.2px;
+    text-decoration: none;
+    color: white;
+transition: 0.4s linear;
+}
+
+.alar a:hover{
+    color: #c5a47e;
+}
+
+
+.Section1{
+    box-sizing: border-box;
+    width: 100%;
+    height: 700px;
+    background-image: url('./images/bgimg.jpg');
+}
+
+.Section1 {
+  width: 100%;
+  height: 700px;
+  background-image: url('./images/bgimg.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 100px;
+  color: white;
+}
+
+.Section1 .left {
+  max-width: 40%;
+}
+
+.Section1 .left h2 {
+  font-size: 70px;
+  letter-spacing: 4px;
+}
+
+.Section1 .left p {
+  font-size: 30px;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  color: #c5a47e;
+}
+
+.Section1 .right {
+  width: 400px;
+}
+
+.swiper {
+  width: 100%;
+  height: 400px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+.Section2 {
+
+  font-family: 'Arial', sans-serif;
+  background-color: #747474;
+  color: #333;
+}
+
+.Section2 h1 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.Section2 .highlight {
+
+  letter-spacing: 2px;
+  color: #c49b6c;
+  font-weight: bold;
+}
+
+.main1 {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.left, .mid, .right {
+  flex: 1;
+  min-width: 250px;
+}
+
+.left h2 {
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.left h2 strong {
+  font-weight: bold;
+}
+
+.left p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+}
+
+.mid h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.mid ul {
+  list-style: none;
+  padding: 0;
+}
+
+.mid li {
+  width: 50px;
+  height: 50px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  color: #333;
+}
+
+.mid li img {
+  width: 53px;
+  height: 39px;
+  margin-right: 10px;
+  filter: sepia(1) hue-rotate(20deg) saturate(3);
+}
+
+.right img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
+.back_text{
+    width: 754px;
+    height: 138px;
+    font-size: 158px;
+    color: #3d3d3d;
+    position: absolute;
+    z-index: 0;
+}
+.Section2 div{
+    z-index: 3;
+}
+
+
+.Section2 {
+
+ margin-bottom: 50px;
+  position: relative;
+  overflow: hidden;
+  padding: 60px 20px;
+  padding: 50px;   
+  background-color: #fff; /* или другой цвет фона */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Фоновый текст */
+.back_text {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  font-size: 200px;
+  color: rgba(0, 0, 0, 0.03);
+  font-weight: 900;
+  letter-spacing: 20px;
+  z-index: 0;
+  white-space: nowrap;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* Контент поверх фонового текста */
+.Section2 h1,
+.Section2 .main1 {
+  position: relative;
+  z-index: 1;
+}
+
+/* Основная сетка */
+.main1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+/* Колонки */
+.left, .mid, .right {
+  flex: 1;
+  min-width: 250px;
+}
+
+/* Стилизация списка специализаций */
+.mid ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mid li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.mid li img {
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+}
+
+/* Изображение справа */
+.right img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+}
+
+
+.section3 {
+  height: 600px;
+  padding: 60px 20px;
+  background: #0e0e11;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  overflow: hidden;
+}
+.section2  .mid{
+  margin-left: 150px;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 10px;
+}
+
+.slider-wrapper {
+  width: 100%;
+  max-width: 1100px; /* под 3 карточки по 350px + gap */
+  overflow: hidden; /* скрываем полосы прокрутки */
+}
+
+.slider {
+  display: flex;
+  gap: 20px;
+  transition: transform 0.4s ease-in-out;
+  will-change: transform;
+}
+
+.card {
+  flex: 0 0 350px; /* фиксированная ширина карточки */
+  height: 450px;
+  background-color: #1a1a1d;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  z-index: 2;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card span {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 20px;
+  color: #fff;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  z-index: 3;
+}
+
+.card:hover span {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+/* Кнопки */
+.nav {
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  font-size: 18px;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  z-index: 10;
+  user-select: none;
+  transition: 0.3s ease;
+}
+
+.nav:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.nav.prev {
+  position: relative;
+}
+
+.nav.next {
+  position: relative;
+}
+
+/* Модалка */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+  display: block;
+  margin: 5% auto;
+  max-width: 80%;
+  border-radius: 10px;
+}
+
+.close {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.highlight2{
+  
+  letter-spacing: 2px;
+  position: absolute;
+  top: 50px;
+}
+
+.ichi{
+  color: #c5a47e;
+}
+
+
+.main1{
+margin-top: 130px;
+}
+
+
+.left h2{
+
+  color: #000;
+}
+
+/* ==== HEADER СТИЛИ ПО УМОЛЧАНИЮ ==== */
+#main-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4); /* не белый — например, прозрачный чёрный */
+  color: white;
+  transition: all 0.4s ease;
+z-index: 1000;
+    height: 110px;
+    /* background-color: rgb(26, 26, 61); */
+        background-color: #1f1f28;
+
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+#main-header h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+  margin: 0;
+  color: inherit;
+}
+
+.alar {
+  display: flex;
+  gap: 25px;
+}
+
+.alar a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+
+
+/* ==== СТИЛЬ ПРИ СКРОЛЛЕ ВНИЗ ==== */
+#main-header.scrolled {
+  height: 50px;
+  position: fixed;
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#main-header.scrolled h1 {
+  color: #000;
+}
+
+#main-header.scrolled .alar a {
+  color: #000;
+}
+
+#main-header.scrolled .alar a:hover {
+    color: #c5a47e;
+}
+
+/* ==== Общие стили ==== */
+body {
+  scroll-behavior: smooth;
+  padding-top: 100px; /* отступ под фиксированную шапку */
+}
+
+
+/* ========== SECTION 4 ========== */
+.section4 {
+  padding: 500px;
+  padding: 80px 60px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.section4-title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 60px;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 6px;
+  color: #a67c52;
+  text-transform: uppercase;
+}
+
+.section4-title span {
+  color: #000;
+  font-weight: 400;
+}
+
+.section4-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.section4-card {
+  flex: 1;
+  min-width: 250px;
+  max-width: 350px;
+  text-align: center;
+  padding: 20px;
+  border-right: 1px solid #eee;
+}
+
+.section4-card:last-child {
+  border-right: none;
+}
+
+.section4-card img {
+  width: 60px;
+  height: auto;
+  margin-bottom: 25px;
+  filter: sepia(1) hue-rotate(-20deg) saturate(3);
+}
+
+.section4-card h3 {
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #222;
+  margin-bottom: 15px;
+  font-family: 'Georgia', serif;
+  line-height: 1.4;
+}
+
+.section4-card p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #444;
+  font-family: sans-serif;
+}
+
+
+.footer {
+  background: #f5f4f3;
+  padding: 60px 20px 30px;
+  font-family: 'Oswald', sans-serif;
+  color: #222;
+  border-top: 1px solid #e0e0e0;
+}
+
+.footer-wrapper {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-section {
+  flex: 1 1 220px;
+  min-width: 200px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  color: #b98e56;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.footer-section p,
+.footer-section li,
+.footer-section a {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: #b98e56;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.social-icons img {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.15);
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 50px;
+  border-top: 1px solid #ddd;
+  padding-top: 30px;
+}
+
+.footer-bottom h1 {
+  font-size: 36px;
+  color: #222;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  color: #888;
+}
+
+
+.lang-dropdown {
+  position: relative;
+  margin-left: 20px;
+}
+
+.lang-dropdown button {
+  background-color: transparent;
+  color: #c5a47e;
+  border: 2px solid #c5a47e;
+  padding: 5px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.lang-dropdown button:hover {
+  background-color: #c5a47e;
+  color: #fff;
+}
+
+.lang-menu {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  background-color: white;
+  border: 1px solid #c5a47e;
+  border-radius: 5px;
+  list-style: none;
+  padding: 5px 0;
+  min-width: 80px;
+  z-index: 999;
+}
+
+.lang-menu li {
+  padding: 8px 15px;
+  cursor: pointer;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  color: #333;
+  transition: background-color 0.3s;
+}
+
+.lang-menu li:hover {
+  background-color: #c5a47e;
+  color: white;
+}
+
+.lang-menu.show {
+  display: block;
+}
+
+
+footer a{
+  display: flex;
+
+}
+
+footer a h4{
+  font-weight: 100;
+}
+
+
+/* Скрываем бургер по умолчанию */
+.burger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 25px;
+  height: 25px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 1100;
+}
+
+
+/* Полоски бургера */
+.burger span {
+  width: 25px;
+  height: 3px;
+  background: white;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* Адаптив для мобильных */
+@media (max-width: 768px) {
+  .alar {
+    display: none; /* прячем меню */
+    position: fixed;
+    top: 110px;
+    right: 0;
+    background: rgb(26, 26, 61);
+    width: 200px;
+    height: calc(100vh - 110px);
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+    transform: translateX(100%);
+  }
+
+  .alar.active {
+    display: flex;
+    transform: translateX(0);
+  }
+
+  .alar a {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+
+  .burger {
+    display: flex;
+  }
+}
+
+
+/* Для планшетов и меньше */
+@media (max-width: 1024px) {
+  .Section1 {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .Section1 .left, .Section1 .right {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .Section1 .left h2 {
+    font-size: 40px;
+  }
+
+  .Section1 .left p {
+    font-size: 18px;
+  }
+
+  .swiper {
+    height: 300px;
+  }
+
+  .main1 {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .left, .mid, .right {
+    min-width: 100%;
+  }
+
+  .section3 {
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .slider-container {
+    flex-direction: column;
+  }
+
+  .card {
+    flex: none;
+    width: 100%;
+    height: 300px;
+  }
+
+  .section4-grid {
+    flex-direction: column;
+  }
+
+  .section4-card {
+    border-right: none;
+    border-bottom: 1px solid #eee;
+    max-width: 100%;
+  }
+
+  .footer-wrapper {
+    flex-direction: column;
+  }
+}
+
+/* Для телефонов (меньше 768px) */
+@media (max-width: 767px) {
+  header {
+    padding: 20px;
+    height: 70px;
+  }
+
+  header h1 {
+    font-size: 20px;
+  }
+
+  .Section1 .left h2 {
+    font-size: 30px;
+  }
+
+  .Section1 .left p {
+    font-size: 16px;
+  }
+
+  .swiper {
+    height: 200px;
+  }
+
+  .card {
+    height: 250px;
+  }
+
+  .section4-title {
+    font-size: 24px;
+    letter-spacing: 3px;
+  }
+
+  .alar {
+    display: none; /* скрываем основное меню, показываем бургер */
+  }
+}
+
+
+
+
+
+.section4{
+  padding: 200px;
+}
+
+.Section2{
+  padding-bottom: 130px;
+}
+
+/* ========================================= */
+/* --- Адаптация для планшетов (до 1200px) --- */
+/* ========================================= */
+@media (max-width: 1200px) {
+    /* Header & Navigation */
+    .alar a {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    /* Section 1 (Hero) */
+    .Section1 .left {
+        padding: 0 40px;
+    }
+    .Section1 .left h2 {
+        font-size: 60px;
+    }
+    .Section1 .left p {
+        font-size: 30px;
+    }
+
+    /* Section 2 (About) */
+    .Section2 .main1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Section2 .main1 .left,
+    .Section2 .main1 .mid,
+    .Section2 .main1 .right {
+        width: 90%;
+        margin-bottom: 40px;
+    }
+    .Section2 .main1 .right img {
+        max-width: 100%;
+        height: auto;
+    }
+    .Section2 .main1 .left h2 {
+        font-size: 24px;
+    }
+    .Section2 .main1 .mid ul {
+        justify-content: space-around;
+    }
+
+    /* Section 3 (Product Slider) */
+    .slider-container {
+        padding: 0 5%;
+    }
+    .slider-wrapper {
+        overflow: hidden; /* Ensure only 2 cards are visible at this size */
+        width: 740px; /* Adjust based on card width (370px * 2) */
+    }
+}
+
+/* Модальное окно: Кнопка закрытия */
+.close {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    color: #fff;
+    font-size: 50px; /* Сделаем крупнее */
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 0.3s;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7); /* Тень для видимости на любом фоне */
+}
+
+.close:hover,
+.close:focus {
+    color: #c5a47e; /* Выделение при наведении */
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 1;
+}
+
+/* Адаптация кнопки закрытия для мобильных */
+@media (max-width: 768px) {
+    .close {
+        top: 15px;
+        right: 25px;
+        font-size: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+/* =================================================== */
+/* --- 1. Оптимизация для больших планшетов (до 1200px) --- */
+/* Улучшаем композицию и размеры шрифтов */
+/* =================================================== */
+@media (max-width: 1200px) {
+    /* Header & Navigation */
+    .alar a {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    .lang-dropdown {
+        margin-left: 10px;
+    }
+
+    /* Section 1 (Hero) */
+    .Section1 {
+        padding: 50px 50px;
+        height: 600px; /* Немного ниже */
+    }
+    .Section1 .left h2 {
+        font-size: 55px;
+    }
+    .Section1 .left p {
+        font-size: 25px;
+    }
+    .Section1 .right {
+        width: 350px;
+    }
+    .swiper {
+        height: 350px;
+    }
+
+    /* Section 2 (About) */
+    .Section2 {
+        padding: 80px 30px;
+    }
+    .back_text {
+        font-size: 150px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /* Section 3 (Slider) */
+    .slider-wrapper {
+        max-width: 740px; /* Показываем 2 карточки */
+    }
+
+    /* Section 4 (Features) */
+    .section4-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 колонки */
+        gap: 30px;
+        max-width: 800px;
+    }
+}
+
+/* ================================================= */
+/* --- 2. Оптимизация для стандартных планшетов (до 1024px) --- */
+/* Переход к вертикальному макету */
+/* ================================================= */
+@media (max-width: 1024px) {
+    /* Header & Navigation */
+    .alar { display: none; } /* Скрываем меню */
+    .burger { display: flex; } /* Показываем бургер */
+    #main-header.scrolled .burger span {
+        background: #000;
+    }
+
+    /* Section 1 (Hero) */
+    .Section1 {
+        flex-direction: column;
+        height: auto;
+        padding: 100px 20px 50px;
+        text-align: center;
+    }
+    .Section1 .left { order: 2; margin-bottom: 30px; }
+    .Section1 .right { order: 1; margin-bottom: 20px; }
+    .swiper {
+        width: 90%;
+        max-width: 450px;
+        height: 250px;
+        margin: auto;
+    }
+
+    /* Section 2 (About) */
+    .main1 {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .left, .mid, .right {
+        min-width: 90%;
+        padding: 0;
+    }
+    .section2 .mid { margin-left: 0; }
+    .mid ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px;
+    }
+    .right img {
+        max-width: 350px;
+    }
+    .back_text {
+        font-size: 100px; /* Ещё уменьшаем */
+    }
+
+    /* Section 3 (Slider) */
+    .section3 {
+        padding: 60px 0;
+        height: auto;
+    }
+    .slider-wrapper {
+        max-width: 95vw; /* Позволяем занимать больше ширины */
+        padding: 0 10px;
+    }
+    .card {
+        flex: 0 0 300px; /* Чуть меньше на планшете */
+    }
+    .nav {
+        display: none; /* Скрываем кнопки */
+    }
+
+    /* Section 4 (Features) */
+    .section4-grid {
+        grid-template-columns: 1fr; /* 1 колонка */
+        max-width: 400px;
+    }
+    .section4-card {
+        padding: 25px 20px;
+    }
+
+    /* Footer */
+    .footer-wrapper {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+    .social-icons {
+        justify-content: center;
+    }
+
+
+
+
+    /* ... внутри @media (max-width: 1024px) */
+
+.nav {
+    /* Делаем кнопки компактнее для планшетов */
+    font-size: 16px;
+    padding: 8px 15px;
+}
+.slider-container {
+    /* Возвращаем небольшой отступ, чтобы кнопки не прилипали */
+    gap: 15px;
+}
+}
+
+/* ========================================== */
+/* --- 3. Оптимизация для телефонов (до 768px) --- */
+/* Максимальная читаемость и удобство */
+/* ========================================== */
+@media (max-width: 768px) {
+
+
+/* ... внутри @media (max-width: 768px) */
+/* ... */
+/* Section 3 (Slider) */
+
+.section3 {
+    padding: 60px 10px; /* Уменьшаем горизонтальный паддинг */
+    height: auto;
+}
+.slider-container {
+    /* Переключаем на flex-direction: row, чтобы кнопки были по бокам */
+    flex-direction: row; 
+    gap: 5px; /* Уменьшаем зазор */
+    padding: 0 5px;
+}
+
+/* ... остальные стили внутри 768px ... */
+
+
+/* ... внутри @media (max-width: 768px) */
+
+/* Section 3 (Slider) */
+.slider-wrapper {
+    max-width: 90vw;
+}
+.card {
+    flex: 0 0 90vw;
+    height: 300px;
+    margin-right: 15px;
+}
+
+/* ЭТОТ БЛОК НУЖНО ИЗМЕНИТЬ */
+.nav {
+    /* Меняем display: none; на display: block; */
+    display: block; 
+    /* Делаем кнопки маленькими иконками */
+    font-size: 14px;
+    padding: 6px 10px; 
+}
+  /* ... внутри @media (max-width: 768px) */
+
+    /* Header */
+    #main-header {
+        height: 70px;
+        padding: 15px 20px;
+    }
+    .alar {
+        top: 70px;
+        width: 100%;
+        min-height: calc(100vh - 70px);
+    }
+    .alar a {
+        text-align: left;
+        padding: 15px 30px;
+        border-bottom: 1px solid #3a3a70;
+    }
+    .lang-dropdown {
+        margin-left: 10px;
+    }
+
+    /* Section 1 (Hero) */
+    .Section1 {
+        padding: 80px 10px 40px;
+    }
+    .Section1 .left h2 {
+        font-size: 38px;
+    }
+    .Section1 .left p {
+        font-size: 20px;
+    }
+    .swiper {
+        width: 100%;
+        height: 200px;
+    }
+
+    /* Section 2 (About) */
+    .Section2 {
+        padding: 40px 15px;
+    }
+    .back_text {
+        font-size: 60px;
+        letter-spacing: 5px;
+        white-space: normal;
+        left: 5%; /* Чуть сдвигаем влево */
+        transform: translate(0, -50%);
+    }
+    .left h2 {
+        font-size: 20px;
+    }
+    .left p {
+        font-size: 15px;
+    }
+    .mid ul {
+        flex-direction: column; /* Вертикальный список */
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .right img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Section 3 (Slider) */
+    .slider-wrapper {
+        max-width: 90vw;
+    }
+    .card {
+        flex: 0 0 90vw; /* 90% ширины экрана */
+        height: 300px;
+        margin-right: 15px;
+    }
+
+    /* Section 4 (Features) */
+    .section4 {
+        padding: 40px 15px;
+    }
+    .section4-title {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    .section4-card {
+        padding: 20px 10px;
+    }
+    .section4-card img {
+        width: 50px;
+    }
+
+    /* Footer */
+    .footer-section h3 {
+        margin-top: 20px;
+    }
+    .footer-bottom h1 {
+        font-size: 28px;
+    }
+
+
+
+
+
+    /* ... внутри @media (max-width: 768px) ... */
+
+/* Заголовок Section 2 - BIZ HAQIMIZDA */
+.Section2 h1 {
+    font-size: 28px; /* Чуть меньше */
+    margin: 0 auto 40px; /* Центрируем и добавляем нижний отступ */
+    text-align: center; /* Центрируем текст */
+    max-width: 80%; /* Ограничиваем ширину, чтобы он делился на 3 строки */
+    line-height: 1.2; /* Уменьшаем межстрочный интервал */
+}
+
+
+#aboutTitleContainer .highlight{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Фоновый текст (чтобы не мешал) */
+.back_text {
+    font-size: 50px;
+    letter-spacing: 3px;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Центрируем, чтобы не было среза */
+}
+
+/* ... остальные стили Section 2 ... */
+}
+
+
+#aboutTitleContainer{
+letter-spacing: 12px;
+
+}
+
+
+/* Header: Улучшаем центрирование */
+header {
+    /* height: 110px; - Убираем фиксированную высоту для гибкости */
+    /* background-color: rgb(26, 26, 61);
+     */
+         background-color: #1a1a1d;
+
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    /* Убедимся, что все элементы внутри хедера хорошо себя чувствуют */
+    min-height: 110px; 
+}
+
+/* Стили навигационного меню */
+.alar {
+    width: auto; /* Меняем 40% на auto для гибкости */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Выравнивание вправо */
+    gap: 25px; /* Добавляем явный зазор между ссылками */
+}
+
+
+/* ... внутри @media (max-width: 768px) ... */
+
+/* ... (продолжение стилей Section 2) ... */
+
+.mid {
+    /* Чтобы текст в колонках был аккуратным */
+    text-align: center; 
+}
+
+.mid h3 {
+    text-align: left; /* Заголовок все равно слева */
+    padding-left: 15px;
+}
+
+.mid ul {
+    /* ЭТОТ БЛОК ИЗМЕНИТ РАСПОЛОЖЕНИЕ НА 3 КОЛОНКИ */
+    display: flex;
+    flex-direction: row; /* Возвращаем горизонтальное расположение */
+    flex-wrap: nowrap; /* Важно: не переносить на новую строку */
+    justify-content: space-around; /* Равномерно распределяем */
+    align-items: flex-start;
+    gap: 5px; /* Уменьшаем зазор */
+    padding: 0 10px;
+}
+
+.mid li {
+    /* Каждая колонка должна занимать 30% ширины */
+    flex: 1 1 30%; 
+    min-width: 80px;
+    
+    /* Центрируем текст и иконку внутри колонки */
+    flex-direction: column; /* Иконка сверху, текст снизу */
+    align-items: center; 
+    text-align: center;
+    
+    margin-bottom: 15px;
+    font-size: 11px; /* Чуть уменьшаем шрифт, чтобы влез */
+    line-height: 1.2;
+}
+
+.mid li img {
+    margin-right: 0;
+    margin-bottom: 5px; /* Отступ под иконкой */
+}
+
+
+
+/* --- КОРРЕКТИРОВКА 1: ЗАГОЛОВОК BIZ HAQIMIZDA (3 строки по центру) --- */
+
+.Section2 h1 {
+    /* Эти стили обеспечивают центрирование и разбивку на строки */
+    font-size: 28px; 
+    margin: 0 auto 40px; /* Центрируем блок h1 */
+    text-align: center; /* Центрируем сам текст */
+    max-width: 60%; /* Ограничиваем ширину, чтобы текст разбился */
+    line-height: 1.2; 
+    font-weight: 900; /* Делаем жирнее для акцента */
+}
+
+/* Скорректируем фоновый текст, чтобы он не мешал заголовку */
+.back_text {
+    font-size: 50px;
+    letter-spacing: 3px;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Центрируем, чтобы не было среза */
+}
+
+/* Активный класс для навигации */
+.alar a.active {
+    color: #c5a47e !important; /* !important нужен для перебивания других цветов, в т.ч. при скролле */
+}
+
+/* Стили при скролле (header.scrolled) */
+#main-header.scrolled .alar a.active {
+    color: #c5a47e !important;
+}
+
+
+/* Модальное окно (фон) */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 9999; /* Очень высокий z-index, чтобы быть выше всего */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* На случай очень больших изображений */
+    background-color: rgba(0,0,0,0.9); 
+
+    /* ГАРАНТИЯ ЦЕНТРИРОВАНИЯ: */
+    display: flex; /* Активируем Flexbox */
+    align-items: center; /* Центрируем вертикально */
+    justify-content: center; /* Центрируем горизонтально */
+}
+
+/* Кнопка закрытия */
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    z-index: 10000; 
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal {
+    display: none; /* Элемент скрыт по умолчанию */
+    position: fixed;
+    z-index: 1000; /* Должен быть выше всего остального */
+    /* ... остальные стили для фона ... */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================= */
+/* НОВЫЕ СТИЛИ ДЛЯ ИЗОБРАЖЕНИЙ-ФОНОВ */
+/* ========================================= */
+
+.swiper-slide {
+    /* Обязательные свойства для фонового изображения */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    /* Убедитесь, что высота задана, чтобы фон был виден. 
+       В вашем существующем коде это уже сделано в .swiper */
+}
+
+/* Присваиваем конкретные изображения каждому слайду */
+.swiper-slide-1 {
+    background-image: url('./images/Gemini_Generated_Image_o7s56to7s56to7s5 (1).png');
+}
+
+.swiper-slide-2 {
+    background-image: url('./images/Gemini_Generated_Image_oqw0syoqw0syoqw0 (1).png');
+}
+
+.swiper-slide-3 {
+    background-image: url('./images/Gemini_Generated_Image_rx9kpdrx9kpdrx9k (1).png');
+}
+
+/* УДАЛИТЕ ЭТОТ БЛОК, так как он больше не нужен */
+/*
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+}
+*/
